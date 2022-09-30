@@ -22,18 +22,18 @@ const Books = () => {
 
 
           <div className="fechaPersonas">
-          <div>
-            <label htmlFor="password" className="form-label">Fecha</label>
+          <div className="fechaPersonasDiv">
+            <label htmlFor="password" className="fechaInputLabel">Fecha</label>
             <input className="fechaPersonasInput" type="text" id="fecha" name="fecha" placeholder="DD/MM/AA" />
           </div>
-            <div>
-            <label htmlFor="personas" className="form-label">Personas</label>
-            <input className="fechaPersonasInput" type="number"  id="personas" name="personas" placeholder="********" />
+            <div className="fechaPersonasDiv">
+            <label htmlFor="personas" className="fechaInputLabel">Personas</label>
+            <input className="fechaPersonasInput" type="number"  id="personas" name="personas" placeholder="5" />
             </div>
           </div>
 
 
-            <button className="loginButton">CONFIRMAR</button>
+            <button className="bookButton">CONFIRMAR</button>
             </form>
       </div>
     </section>

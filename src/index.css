@@ -17,119 +17,151 @@ code {
 }
 
 
-.navegador{
+.navegador {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   padding: 15px;
   color: white;
   background-color: #35363a;
   width: 100%;
   height: 20px
-  
 }
 
-.logo-mondo{
+.logo-mondo {
   width: 150px;
   margin-bottom: 40px;
   margin-top: 40px;
 }
 
-.home-container{
+.home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%
 }
 
-.form-container-home{
+.form-container-home {
   margin-bottom: 25vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 
 }
 
-form > label {
+form>label {
   color: white;
   font-size: small;
   text-align: left;
 }
 
-.form-label{
+.form-label {
   text-align: left;
 }
 
-form > input {
+form>input {
   padding: 10px 10px;
   background-color: #dddde3;
   margin-bottom: 30px;
   color: #dddde3;
   width: 60vw
-
 }
 
-.loginButton{
+.loginButton {
   background-color: black;
   color: #ededf3;
   border: 2px solid white;
   border-radius: 8px;
   margin: 1rem;
   font-size: 12px;
-	padding: 20px 20px;
-  
+  padding: 20px 20px;
+
 }
 
-.footer{
+.footer {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   padding: 20px;
-  color:white;
+  color: white;
   text-decoration: none;
   bottom: 0;
   width: 100%;
   background-color: #35353b
 }
 
-.div-home-footer, .div-eventos-footer, .div-reservas-footer, .div-perfil-footer{
+.div-home-footer,
+.div-eventos-footer,
+.div-reservas-footer,
+.div-perfil-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right:10px;
-  margin-left:15px;
+  margin-right: 10px;
+  margin-left: 15px;
   font-size: small
 }
 
 
-.div-reservas-footer, .div-home-footer, .img-wight{
+.div-reservas-footer,
+.div-home-footer,
+.img-wight {
   width: 22px;
 }
 
 /* Pantalla de reservas */
 
-.fechaPersonas{
-  display:flex ;
+.fechaPersonas {
+  display: flex;
   gap: 10px;
-  justify-content:space-around;
+  justify-content: space-around;
   padding-left: 30px
 }
 
-.fechaPersonasInput{
-  padding: 5px;
-  width: 40px;
+.fechaPersonasInput {
+  padding: px;
+  width: 100px;
+  display:flex;
+  align-content: space-between;
+  padding: 8px
 }
 
+.fechaInputLabel {
+  color: white;
+  background-color: #4d4d56;
+  padding: 8px;
+  font-size: small;
+}
+.fechaPersonasDiv{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-between;
+margin-right:20px;
+}
 
-.book-container{
+.book-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.book-container > h1 {
+.book-container>h1 {
   color: white;
   font-size: x-large;
 }
 
-#gifhome{
-  width:150px;
+#gifhome {
+  width: 150px;
+}
+
+.bookButton {
+  background-color: black;
+  color: #ededf3;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 1rem;
+  font-size: 15px;
+  padding: 20px 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
